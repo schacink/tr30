@@ -8,45 +8,75 @@ IMAGE_TAG="${IMAGE_TAG:-latest}"
 TRAINING_REGION="${TRAINING_REGION:-us-east-2}"
 
 REGULAR_INSTANCE_TYPES=(
-  "ml.g4dn.12xlarge"
-  "ml.g5.2xlarge"
-  "ml.g6.2xlarge"
-  "ml.g4dn.2xlarge"
-  "ml.g4dn.16xlarge"
-  "ml.g6e.12xlarge"
-  "ml.g6.4xlarge"
-  "ml.g5.12xlarge"
-  "ml.g5.xlarge"
-  "ml.g6e.xlarge"
-  "ml.g5.8xlarge"
-  "ml.g6.xlarge"
-  "ml.g6e.8xlarge"
-  "ml.g6.12xlarge"
-  "ml.g6e.16xlarge"
-  "ml.g4dn.4xlarge"
-  "ml.g6e.2xlarge"
-  "ml.g6e.4xlarge"
-  "ml.g4dn.xlarge"
-  "ml.g5.4xlarge"
-  "ml.g6.16xlarge"
-  "ml.g5.16xlarge"
-  "ml.g6.8xlarge"
-  "ml.g4dn.8xlarge"
+  ".g6e.16xlarge"
+  ".g6.12xlarge"
+  ".g6.16xlarge"
+  ".g5.16xlarge"
+  ".g4dn.16xlarge"
+  ".g4dn.12xlarge"
+  ".g7e.12xlarge"
+  ".g5.12xlarge"
+  ".g7.12xlarge"
+  ".g6.2xlarge"
+  ".g6e.12xlarge"
+  ".g4dn.8xlarge"
+  ".g6.8xlarge"
+  ".g7.8xlarge"
+  ".g5.8xlarge"
+  ".g6e.8xlarge"
+  ".g7e.8xlarge"
+  ".g4dn.4xlarge"
+  ".g6e.4xlarge"
+  ".g5.4xlarge"
+  ".r5.4xlarge"
+  ".g7e.4xlarge"
+  ".g7.4xlarge"
+  ".g6.4xlarge"
+  ".g5.2xlarge"
+  ".g4dn.2xlarge"
+  ".g6.xlarge"
+  ".g7e.2xlarge"
+  ".g6e.2xlarge"
+  ".g7.2xlarge"
+  ".g4dn.xlarge"
+  ".g6e.xlarge"
+  ".g5.xlarge"
 )
 
 SPOT_INSTANCE_TYPES=(
-  "ml.g6e.12xlarge"
-  "ml.g4dn.2xlarge"
-  "ml.g6e.2xlarge"
-  "ml.g4dn.xlarge"
-  "ml.g4dn.16xlarge"
-  "ml.g4dn.4xlarge"
-  "ml.g4dn.8xlarge"
-  "ml.g6e.xlarge"
-  "ml.g6e.4xlarge"
-  "ml.g6e.16xlarge"
-  "ml.g6e.8xlarge"
-  "ml.g4dn.12xlarge"
+  ".g6e.16xlarge"
+  ".g6.12xlarge"
+  ".g6.16xlarge"
+  ".g5.16xlarge"
+  ".g4dn.16xlarge"
+  ".g4dn.12xlarge"
+  ".g7e.12xlarge"
+  ".g5.12xlarge"
+  ".g7.12xlarge"
+  ".g6.2xlarge"
+  ".g6e.12xlarge"
+  ".g4dn.8xlarge"
+  ".g6.8xlarge"
+  ".g7.8xlarge"
+  ".g5.8xlarge"
+  ".g6e.8xlarge"
+  ".g7e.8xlarge"
+  ".g4dn.4xlarge"
+  ".g6e.4xlarge"
+  ".g5.4xlarge"
+  ".r5.4xlarge"
+  ".g7e.4xlarge"
+  ".g7.4xlarge"
+  ".g6.4xlarge"
+  ".g5.2xlarge"
+  ".g4dn.2xlarge"
+  ".g6.xlarge"
+  ".g7e.2xlarge"
+  ".g6e.2xlarge"
+  ".g7.2xlarge"
+  ".g4dn.xlarge"
+  ".g6e.xlarge"
+  ".g5.xlarge"
 )
 
 check_training_dataset() {
@@ -372,3 +402,25 @@ echo
 
 echo "Proses deployment AWS geus selesai."
 echo "Role ARN: ${ROLE_ARN}"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
